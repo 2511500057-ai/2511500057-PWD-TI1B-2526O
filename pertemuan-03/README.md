@@ -1,1 +1,9 @@
 # pertemuan-03
+
+NIM : 2511500057<br>
+Nama: Steven Marcelino<br>
+
+Hari ini, Kamis 09 Oktober, saya belajar:
+<ol>
+  <li>copy isi file emmet.html (pertemuan-02) ke index.html (pertemuan-03)</li>
+</ol>
