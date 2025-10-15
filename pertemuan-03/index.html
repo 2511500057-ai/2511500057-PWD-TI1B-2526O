@@ -86,14 +86,68 @@
         <section id="contact">
             <h2>Kontak Kami</h2>
             <style>
-                #contact {
-                    background-color: #003366;
-                    border-radius: 10px;
-                    padding: 20px;
-                    max-width: 700px;
-                    margin: 20px auto;
-                    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-                }
+        #contact {
+           background-color: #112d05;
+           border-radius: 10px;
+           padding: 20px;
+           max-width: 500px;
+           box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+           padding: 150px;
+           margin: 100px auto;
+         }
+
+         #contact form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: 0 auto;
+         }
+
+         #contact h2 {
+            color: #fffb00;
+            border-bottom: 2px solid #ffffff;
+            padding-bottom: 16px;
+            margin-top: -100px;
+            margin-bottom: 16px;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 36px;
+         }
+
+        #contact label {
+            margin-bottom: 6px;
+            font-weight: 600;
+            color: #ffffff;
+         }
+
+        #contact input, #contact textarea {
+            margin-bottom: 12px;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+            font-family: Arial, sans-serif;
+         }
+
+        #contact button {
+            padding: 8px;
+            margin: 5px 0;
+            border: none;
+            border-radius: 4px;
+            background-color: #0080ff;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            margin-bottom: 12px;
+         }
+
+        #contact button[type="reset"] {
+            background-color: #828282;
+         }
+
+        #contact button:hover {
+            background-color: #304062;
+         }
             </style>
             <form action="" method="GET">
                 <label for="txtNama">Nama:</label>
