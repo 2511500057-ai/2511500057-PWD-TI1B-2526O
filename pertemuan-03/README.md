@@ -13,4 +13,5 @@ Hari ini, Kamis 09 Oktober, saya belajar:
   <li>membuat styling untuk selector ID #about elemen strong</li>
   <li>membuat styling untuk selector ID #about mode responsif (mobile)</li>
   <li>membuat styling untuk selector ID #contact</li>
+  <li>membuat styling untuk selector ID #contact elemen h2</li>
 </ol>
