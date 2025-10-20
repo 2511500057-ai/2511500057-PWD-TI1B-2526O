@@ -21,4 +21,5 @@ Hari ini, Kamis 09 Oktober, saya belajar:
   <li>membuat styling untuk selector ID #contact elemen label>span</li>
   <li>section#contact styling warna tombol</li>
   <li>section#contact styling hover tombol</li>
+  <li>section#contact styling label dan label>span</li>
 </ol>
