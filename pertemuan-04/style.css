@@ -54,6 +54,13 @@
             text-align: justify;
         }
 
+        footer {
+            background: #222;
+            color: #aaa;
+            text-align: center;
+            padding: 10px;
+        }
+
 
         #about p{
             display: flex;
