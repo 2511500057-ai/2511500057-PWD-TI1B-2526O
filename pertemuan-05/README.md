@@ -5,5 +5,5 @@ Nama: Steven Marcelino<br>
 
 Hari ini, Kamis 23 Oktober, saya belajar:
 <ol>
-<li>copy paste index.html dan style.css dari pertemuan-04</li>
+<li>copy paste index.html dan style.css dari pertemuan-04 h</li>
 </ol>
