@@ -79,7 +79,7 @@ function alignErrorMessage(smaLLeL, inputEL) {
     const isMobile = window.matchMedia("(max-width: 600px)").matches;
     if (isMobile) {
         smaLLeL.style.marginLeft = "0";
-        smaLLeL.style.width = "100";
+        smaLLeL.style.width = "100%";
         return;
     }
 
