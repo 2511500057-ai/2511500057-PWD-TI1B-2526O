@@ -24,10 +24,18 @@
         <section id="home">
             <h2>Selamat Datang</h2>
             <p>Ini contoh paragraf HTML.</p>
+            <?php
+            echo "Halo Dunia";
+            echo "Nama saya Steven Marcelino";
+            ?>
         </section>
         <section id="about">
+            <?php
+            $NIM = "2511500057";
+            $nim = "2511500057";
+            ?>
             <h2>About Steven Marcelino &#128516;</h2>
-            <p><strong>NIM:</strong> 2511500057</p>
+            <p><strong>NIM:</strong> <?php echo $nim ?></p>
             <p><strong>Nama Lengkap:</strong> Steven Marcelino &#128512;</p>
             <p><strong>Tempat Lahir:</strong> Pangkalpininang</p>
             <p><strong>Tanggal Lahir:</strong> 29 Maret 2007</p>
