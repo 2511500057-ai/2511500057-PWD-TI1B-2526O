@@ -62,15 +62,15 @@
     $namaMatkul1    = "Algoritma dan Struktur Data";
     $sksMatkul1     = 4;
     $nilaiHadir1    = 90;
-    $nilaiTugas1    = 60;
+    $nilaiTugas1    = 80;
     $nilaiUTS1      = 80;
     $nilaiUAS1      = 70;
 
     $namaMatkul2    = "Agama";
     $sksMatkul2     = 2;
     $nilaiHadir2    = 70;
-    $nilaiTugas2    = 50;
-    $nilaiUTS2      = 60;
+    $nilaiTugas2    = 85;
+    $nilaiUTS2      = 75;
     $nilaiUAS2      = 80;
 
     $namaMatkul3    = "Matematika Diskrit";
@@ -89,7 +89,7 @@
 
     $namaMatkul5    = "Pemrograman Web Dasar";
     $sksMatkul5     = 3;
-    $nilaiHadir5    = 69;
+    $nilaiHadir5    = 90;
     $nilaiTugas5    = 80;
     $nilaiUTS5      = 90;
     $nilaiUAS5      = 100;
