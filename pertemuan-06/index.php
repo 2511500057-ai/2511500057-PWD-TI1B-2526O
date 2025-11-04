@@ -46,15 +46,15 @@
 
             <h2>About Steven Marcelino &#128516;</h2>
             <p><strong>NIM:</strong> <?php echo $NIM ?></p>
-            <p><strong>Nama Lengkap:</strong> Steven Marcelino &#128512;</p>
-            <p><strong>Tempat Lahir:</strong> Pangkalpininang</p>
-            <p><strong>Tanggal Lahir:</strong> 29 Maret 2007</p>
-            <p><strong>Pekerjaan:</strong> Mahasiswa</p>
-            <p><strong>Pasangan:</strong> Michelle &hearts;</p>
-            <p><strong>Nama Ayah:</strong> Niko Febrianto</p>
-            <p><strong>Nama Ibu:</strong> Ervina</p>
-            <p><strong>Nama Kakak:</strong> Shintya Desilia</p>
-            <p><strong>Nama Adik:</strong> Akila Widya Lestari</p>
+            <p><strong>Nama Lengkap:</strong> <?php echo $Nama_Lengkap ?>&#128512;</p>
+            <p><strong>Tempat Lahir:</strong> <?php echo $Tempat_Lahir ?></p>
+            <p><strong>Tanggal Lahir:</strong> <?php echo $Tanggal_Lahir ?></p>
+            <p><strong>Pekerjaan:</strong> <?php echo $Pekerjaan ?></p>
+            <p><strong>Pasangan:</strong> <?php echo $Pasangan ?>&hearts;</p>
+            <p><strong>Nama Ayah:</strong> <?php echo $Nama_Ayah ?></p>
+            <p><strong>Nama Ibu:</strong> <?php echo $Nama_Ibu ?></p>
+            <p><strong>Nama Kakak:</strong> <?php echo $Nama_Kakak ?></p>
+            <p><strong>Nama Adik:</strong> <?php echo $Nama_Adik ?></p>
         </section>
 
 
