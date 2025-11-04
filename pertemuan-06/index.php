@@ -31,6 +31,7 @@
         </section>
 
         <section id="about">
+            <h2>About Steven Marcelino &#128516;</h2>
             <?php
             $NIM            = "2511500057";
             $Nama_Lengkap   = "Steven Marcelino";
@@ -42,19 +43,18 @@
             $Nama_Ibu       = "Ervina";
             $Nama_Kakak     = "Shintya Desilia";
             $Nama_Adik      = "Akila Widya Lestari";
-            ?>
 
-            <h2>About Steven Marcelino &#128516;</h2>
-            <p><strong>NIM:</strong> <?php echo $NIM ?></p>
-            <p><strong>Nama Lengkap:</strong> <?php echo $Nama_Lengkap ?>&#128512;</p>
-            <p><strong>Tempat Lahir:</strong> <?php echo $Tempat_Lahir ?></p>
-            <p><strong>Tanggal Lahir:</strong> <?php echo $Tanggal_Lahir ?></p>
-            <p><strong>Pekerjaan:</strong> <?php echo $Pekerjaan ?></p>
-            <p><strong>Pasangan:</strong> <?php echo $Pasangan ?>&hearts;</p>
-            <p><strong>Nama Ayah:</strong> <?php echo $Nama_Ayah ?></p>
-            <p><strong>Nama Ibu:</strong> <?php echo $Nama_Ibu ?></p>
-            <p><strong>Nama Kakak:</strong> <?php echo $Nama_Kakak ?></p>
-            <p><strong>Nama Adik:</strong> <?php echo $Nama_Adik ?></p>
+            echo "<p><strong>NIM:</strong> $NIM</p>";
+            echo "<p><strong>Nama Lengkap:</strong> $Nama_Lengkap &#128512;</p>";
+            echo "<p><strong>Tempat Lahir:</strong> $Tempat_Lahir</p>";
+            echo "<p><strong>Tanggal Lahir:</strong> $Tanggal_Lahir</p>";
+            echo "<p><strong>Pekerjaan:</strong> $Pekerjaan</p>";
+            echo "<p><strong>Pasangan:</strong> $Pasangan &hearts;</p>";
+            echo "<p><strong>Nama Ayah:</strong> $Nama_Ayah</p>";
+            echo "<p><strong>Nama Ibu:</strong> $Nama_Ibu</p>";
+            echo "<p><strong>Nama Kakak:</strong> $Nama_Kakak</p>";
+            echo "<p><strong>Nama Adik:</strong> $Nama_Adik</p>";
+            ?>
         </section>
 
         <section id="contact">
