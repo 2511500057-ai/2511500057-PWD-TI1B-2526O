@@ -56,7 +56,93 @@
             echo "<p><strong>Nama Adik:</strong> $Nama_Adik</p>";
             ?>
         </section>
+     <section id="ipk">
+     <h2>Nilai Saya</h2>
+    <?php
+    $namaMatkul1    = "Algoritma dan Struktur Data";
+    $sksMatkul1     = 4;
+    $nilaiHadir1    = 90;
+    $nilaiTugas1    = 60;
+    $nilaiUTS1      = 80;
+    $nilaiUAS1      = 70;
 
+    $namaMatkul2    = "Agama";
+    $sksMatkul2     = 2;
+    $nilaiHadir2    = 70;
+    $nilaiTugas2    = 50;
+    $nilaiUTS2      = 60;
+    $nilaiUAS2      = 80;
+
+    $namaMatkul3    = "Matematika Diskrit";
+    $sksMatkul3     = 3;
+    $nilaiHadir3    = 85;
+    $nilaiTugas3    = 75;
+    $nilaiUTS3      = 85;
+    $nilaiUAS3      = 90;
+
+    $namaMatkul4    = "Bahasa Inggris";
+    $sksMatkul4     = 3;
+    $nilaiHadir4    = 95;
+    $nilaiTugas4    = 80;
+    $nilaiUTS4      = 85;
+    $nilaiUAS4      = 88;
+
+    $namaMatkul5    = "Pemrograman Web Dasar";
+    $sksMatkul5     = 3;
+    $nilaiHadir5    = 69;
+    $nilaiTugas5    = 80;
+    $nilaiUTS5      = 90;
+    $nilaiUAS5      = 100;
+
+    // ---------- Fungsi Penentuan Grade dan Mutu ----------
+    function hitungGrade($nilaiAkhir, $hadir) {
+      if ($hadir < 70) return ['E', 0];
+      if ($nilaiAkhir >= 91) return ['A', 4];
+      if ($nilaiAkhir >= 81) return ['A-', 3.7];
+      if ($nilaiAkhir >= 76) return ['B+', 3.3];
+      if ($nilaiAkhir >= 71) return ['B', 3];
+      if ($nilaiAkhir >= 66) return ['B-', 2.7];
+      if ($nilaiAkhir >= 61) return ['C+', 2.3];
+      if ($nilaiAkhir >= 56) return ['C', 2];
+      if ($nilaiAkhir >= 51) return ['C-', 1.7];
+      if ($nilaiAkhir >= 36) return ['D', 1];
+      return ['E', 0];
+    }
+
+    // ---------- Perhitungan Masing-masing Mata Kuliah ----------
+    $totalBobot = 0;
+    $totalSKS = 0;
+
+    for ($i = 1; $i <= 5; $i++) {
+      $nilaiAkhir = (0.1 * ${"nilaiHadir$i"}) + (0.2 * ${"nilaiTugas$i"}) + (0.3 * ${"nilaiUTS$i"}) + (0.4 * ${"nilaiUAS$i"});
+      list($grade, $mutu) = hitungGrade($nilaiAkhir, ${"nilaiHadir$i"});
+      $bobot = $mutu * ${"sksMatkul$i"};
+      $status = ($grade == "D" || $grade == "E") ? "Gagal" : "Lulus";
+
+      echo "<p><strong>Nama Matakuliah ke-$i:</strong> ${"namaMatkul$i"}</p>";
+      echo "<p><strong>SKS:</strong> ${"sksMatkul$i"}</p>";
+      echo "<p><strong>Kehadiran:</strong> ${"nilaiHadir$i"}</p>";
+      echo "<p><strong>Tugas:</strong> ${"nilaiTugas$i"}</p>";
+      echo "<p><strong>UTS:</strong> ${"nilaiUTS$i"}</p>";
+      echo "<p><strong>UAS:</strong> ${"nilaiUAS$i"}</p>";
+      echo "<p><strong>Nilai Akhir:</strong> " . round($nilaiAkhir, 2) . "</p>";
+      echo "<p><strong>Grade:</strong> $grade</p>";
+      echo "<p><strong>Angka Mutu:</strong> $mutu</p>";
+      echo "<p><strong>Bobot:</strong> $bobot</p>";
+      echo "<p><strong>Status:</strong> $status</p>";
+      echo "<hr>";
+
+      $totalBobot += $bobot;
+      $totalSKS += ${"sksMatkul$i"};
+    }
+
+    $IPK = $totalBobot / $totalSKS;
+
+    echo "<p><strong>Total Bobot:</strong> $totalBobot</p>";
+    echo "<p><strong>Total SKS:</strong> $totalSKS</p>";
+    echo "<p><strong>IPK:</strong> " . round($IPK, 2) . "</p>";
+    ?>
+        </section>
         <section id="contact">
             <h2>Kontak Kami</h2>
            
