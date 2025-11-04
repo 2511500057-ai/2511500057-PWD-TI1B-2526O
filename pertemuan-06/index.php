@@ -29,13 +29,23 @@
             echo "Nama saya Steven Marcelino";
             ?>
         </section>
+
         <section id="about">
             <?php
-            $NIM = "2511500057";
-            $nim = "2511500057";
+            $NIM            = "2511500057";
+            $Nama_Lengkap   = "Steven Marcelino";
+            $Tempat_Lahir   = "Pangkalpinang";
+            $Tanggal_Lahir  = "29 Maret 2007";
+            $Pekerjaan      = "Mahasiswa";
+            $Pasangan       = "Michelle";
+            $Nama_Ayah      = "Niko Febrianto";
+            $Nama_Ibu       = "Ervina";
+            $Nama_Kakak     = "Shintya Desilia";
+            $Nama_Adik      = "Akila Widya Lestari";
             ?>
+
             <h2>About Steven Marcelino &#128516;</h2>
-            <p><strong>NIM:</strong> <?php echo $nim ?></p>
+            <p><strong>NIM:</strong> <?php echo $NIM ?></p>
             <p><strong>Nama Lengkap:</strong> Steven Marcelino &#128512;</p>
             <p><strong>Tempat Lahir:</strong> Pangkalpininang</p>
             <p><strong>Tanggal Lahir:</strong> 29 Maret 2007</p>
@@ -46,6 +56,8 @@
             <p><strong>Nama Kakak:</strong> Shintya Desilia</p>
             <p><strong>Nama Adik:</strong> Akila Widya Lestari</p>
         </section>
+
+
         <section id="contact">
             <h2>Kontak Kami</h2>
            
