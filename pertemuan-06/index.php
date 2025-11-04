@@ -57,7 +57,6 @@
             <p><strong>Nama Adik:</strong> <?php echo $Nama_Adik ?></p>
         </section>
 
-
         <section id="contact">
             <h2>Kontak Kami</h2>
            
