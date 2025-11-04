@@ -11,4 +11,5 @@ belajar:<br>
     <li>copy index.html, dan rename hasil copy ke index.php</li>
     <li>variabel php</li>
     <li>Data server php</li>
+    <li>Style css Data server php</li>
     </ol>

@@ -94,7 +94,6 @@
     $nilaiUTS5      = 90;
     $nilaiUAS5      = 100;
 
-    // ---------- Fungsi Penentuan Grade dan Mutu ----------
     function hitungGrade($nilaiAkhir, $hadir) {
       if ($hadir < 70) return ['E', 0];
       if ($nilaiAkhir >= 91) return ['A', 4];
@@ -109,7 +108,6 @@
       return ['E', 0];
     }
 
-    // ---------- Perhitungan Masing-masing Mata Kuliah ----------
     $totalBobot = 0;
     $totalSKS = 0;
 
