@@ -10,4 +10,5 @@ belajar:<br>
     <li>copy index.html, style.css, script.js (pertemuan-05)</li>
     <li>copy index.html, dan rename hasil copy ke index.php</li>
     <li>variabel php</li>
+    <li>Data server php</li>
     </ol>
