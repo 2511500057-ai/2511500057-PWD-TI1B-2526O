@@ -1,8 +1,19 @@
 <?php
   session_start();
-  $sesname = $_SESSION["nama"];
-  $sesemail = $_SESSION["email"];
-  $sespesan = $_SESSION["pesan"];
+  $sesname = "";
+  if (isset($_SESSION["nama"])):    
+      $sesname = $_SESSION["nama"];
+  endif;
+
+  $sesemail = "";
+  if (isset($_SESSION["email"])):   
+      $sesemail = $_SESSION["email"];
+  endif;
+
+  $sespesan = "";
+  if (isset($_SESSION["pesan"])):   
+      $sespesan = $_SESSION["pesan"];
+  endif;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -84,15 +95,17 @@
           <small id="charCount">0/200 karakter</small>
         </label>
 
-
         <button type="submit">Kirim</button>
         <button type="reset">Batal</button>
       </form>
-      <p>Terimakasih sudah menghubugi kami:
+
+      <?php if (!empty($sesname)): ?>
+      <p>Terimakasih sudah menghubungi kami:
         <label>Nama: <strong><?php echo $sesname; ?></strong></label>
         <label>Email: <strong><?php echo $sesemail; ?></strong></label>
         <label>Pesan: <strong><?php echo $sespesan; ?></strong></label>
       </p>
+      <?php endif; ?>
     </section>
   </main>
 
