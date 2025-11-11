@@ -34,31 +34,33 @@
     </section>
 
     <section id="about">
-            <h2>About Steven Marcelino &#128516;</h2>
-            <?php
-            $NIM            = "2511500057";
-            $Nama_Lengkap   = "Steven Marcelino";
-            $Tempat_Lahir   = "Pangkalpinang";
-            $Tanggal_Lahir  = "29 Maret 2007";
-            $Pekerjaan      = "Mahasiswa";
-            $Pasangan       = "Michelle";
-            $Nama_Ayah      = "Niko Febrianto";
-            $Nama_Ibu       = "Ervina";
-            $Nama_Kakak     = "Shintya Desilia";
-            $Nama_Adik      = "Akila Widya Lestari";
+      <?php
+      $nim = 2511500010;
+      $NIM = '0344300002';
+      $nama = "Say'yid Abdullah";
+      $Nama = 'Al\'kautar Benyamin';
+      ?>
+      <h2>Tentang Saya</h2>
+      <p><strong>NIM:</strong>
+        <?php
+        echo $NIM;
+        ?>
+      </p>
+      <p><strong>Nama Lengkap:</strong>
+        <?php
+        echo $Nama;
+        ?> &#128526;
+      </p>
+      <p><strong>Tempat Lahir:</strong> Pangkalpinang</p>
+      <p><strong>Tanggal Lahir:</strong> 1 Januari 2000</p>
+      <p><strong>Hobi:</strong> Memasak, coding, dan bermain musik &#127926;</p>
+      <p><strong>Pasangan:</strong> Belum ada &hearts;</p>
+      <p><strong>Pekerjaan:</strong> Dosen di ISB Atma Luhur &copy; 2025</p>
+      <p><strong>Nama Orang Tua:</strong> Bapak Setiawan dan Ibu Maria</p>
+      <p><strong>Nama Kakak:</strong> Antonius Setiawan</p>
+      <p><strong>Nama Adik:</strong> Christina Setiawan</p>
+    </section>
 
-            echo "<p><strong>NIM:</strong> $NIM</p>";
-            echo "<p><strong>Nama Lengkap:</strong> $Nama_Lengkap &#128512;</p>";
-            echo "<p><strong>Tempat Lahir:</strong> $Tempat_Lahir</p>";
-            echo "<p><strong>Tanggal Lahir:</strong> $Tanggal_Lahir</p>";
-            echo "<p><strong>Pekerjaan:</strong> $Pekerjaan</p>";
-            echo "<p><strong>Pasangan:</strong> $Pasangan &hearts;</p>";
-            echo "<p><strong>Nama Ayah:</strong> $Nama_Ayah</p>";
-            echo "<p><strong>Nama Ibu:</strong> $Nama_Ibu</p>";
-            echo "<p><strong>Nama Kakak:</strong> $Nama_Kakak</p>";
-            echo "<p><strong>Nama Adik:</strong> $Nama_Adik</p>";
-            ?>
-        </section>
     <section id="contact">
       <h2>Kontak Kami</h2>
       <form action="" method="GET">
