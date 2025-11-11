@@ -1,9 +1,8 @@
 <?php
-session_start();
-$_SESSION["nama"] = $_GET["txtNama"];
-$_SESSION["email"] = $_GET["txtEmail"];
-$_SESSION["pesan"] = $_GET["txtPesan"];
-echo "$sesname $sesemail $sespesan";
+  session_start();
+  $sesname = $_SESSION["nama"];
+  $sesemail = $_SESSION["email"];
+  $sespesan = $_SESSION["pesan"];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -89,6 +88,11 @@ echo "$sesname $sesemail $sespesan";
         <button type="submit">Kirim</button>
         <button type="reset">Batal</button>
       </form>
+      <p>Terimakasih sudah menghubugi kami:
+        <label>Nama: <strong><?php echo $sesname; ?></strong></label>
+        <label>Email: <strong><?php echo $sesemail; ?></strong></label>
+        <label>Pesan: <strong><?php echo $sespesan; ?></strong></label>
+      </p>
     </section>
   </main>
 
