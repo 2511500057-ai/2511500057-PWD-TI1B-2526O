@@ -62,7 +62,7 @@ header li a:active {
 #home,
 #about,
 #contact,
-#entry data {
+#entrydatamahasiswa {
   background-color: #ffffff;
   border-radius: 10px;
   padding: 20px;
@@ -73,8 +73,8 @@ header li a:active {
 
 #home h2,
 #about h2,
-#contact h2
-#entry data {
+#contact h2,
+#entrydatamahasiswa h2 {
   color: #003366;
   border-bottom: 2px solid #003366;
   padding-bottom: 6px;
@@ -87,7 +87,8 @@ header li a:active {
 }
 
 #about p,
-#contact label {
+#contact label,
+#entrydatamahasiswa label {
   display: flex;
   justify-content: flex-start;
   align-items: baseline;
@@ -97,7 +98,8 @@ header li a:active {
 }
 
 #about strong,
-#contact label>span {
+#contact label>span,
+#entrydatamahasiswa label>span {
   min-width: 180px;
   color: #003366;
   font-weight: 600;
@@ -106,18 +108,18 @@ header li a:active {
   flex-shrink: 0;
 }
 
+
 #contact input,
-#contact textarea {
+#contact textarea,
+#entrydatamahasiswa input,
+#entrydatamahasiswa textarea {
   flex: 1;
   border: 1px solid #ccc;
   border-radius: 6px;
   padding: 8px;
-  color: #000;
-  font-weight: normal;
-  margin: 0;
-  box-sizing: border-box;
 }
 
+#entrydatamahasiswa button,
 #contact button {
   margin-top: 10px;
   display: inline-block;
@@ -130,24 +132,29 @@ header li a:active {
   margin-right: 8px;
 }
 
+
+#entrydatamahasiswa [type="submit"],
 #contact button[type="submit"] {
   background-color: #003366;
   color: #fff;
   font-weight: 600;
 }
 
+#entrydatamahasiswa [type="reset"],
 #contact button[type="reset"] {
   background-color: #b4b4b4;
   color: #272727;
-  font-weight: 500;
 }
 
+#entrydatamahasiswa [type="submit"]:hover,
 #contact button[type="submit"]:hover {
   background-color: #0379ee;
   transform: translateY(-1px);
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
 
+
+#entrydatamahasiswa [type="reset"]:hover,
 #contact button[type="reset"]:hover {
   background-color: #cccccc;
   transform: translateY(-1px);
@@ -218,7 +225,8 @@ footer {
   }
 
   #about p,
-  #contact label {
+  #contact label,
+  #entrydatamahasiswa label {
     flex-direction: column;
     align-items: flex-start;
   }
@@ -232,7 +240,9 @@ footer {
 
   #contact input,
   #contact textarea,
-  #contact button {
+  #contact button,
+  #entrydatamahasiswa input,
+  #entrydatamahasiswa textarea {
     width: 100%;
   }
 }

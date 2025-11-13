@@ -11,4 +11,5 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
   <li>copy seluruh file dari elearning (punya dosen) untuk latihan pertemuan-08<br>
   <li>menambahkan section baru entry data mahasiswa<br>
   <li>menambahkan form entry data mahasiswa<br>
+  <li>menambahkan style form entry data mahasiswa<br>
 </ol>

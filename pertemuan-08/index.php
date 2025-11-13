@@ -52,7 +52,7 @@ endif;
       <p>Ini contoh paragraf HTML.</p>
     </section>
 
-    <section id="ENTRY DATA MAHASISWA">
+    <section id="entrydatamahasiswa">
        <h2>ENTRY DATA MAHASISWA</h2>
       <?php
             $NIM            = "2511500057";
@@ -66,7 +66,6 @@ endif;
             $Nama_Kakak     = "Shintya Desilia";
             $Nama_Adik      = "Akila Widya Lestari";
             ?>
-        </section>
 
         <label for="txtNIM"><span>NIM:</span>
           <input type="NIM" id="NIM" name="txtNIM" placeholder="Masukkan NIM" required autocomplete="NIM">
@@ -111,6 +110,7 @@ endif;
         <button type="submit">Kirim</button>
         <button type="reset">Batal</button>
       </form>
+      </section>
 
         
     <section id="about">
