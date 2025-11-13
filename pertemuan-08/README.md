@@ -9,4 +9,5 @@ Kelompok: TI1B<br>
 Proses saya mengerjakan UTS ini sebagai berikut:<br>
 <ol>
   <li>copy seluruh file dari elearning (punya dosen) untuk latihan pertemuan-08<br>
+  <li>menambahkan section baru entry data mahasiswa<br>
 </ol>
