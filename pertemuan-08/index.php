@@ -52,31 +52,7 @@ endif;
       <p>Ini contoh paragraf HTML.</p>
     </section>
 
-    <section id="ENTRY DATA MAHASISWA">
-            <?php
-            $NIM            = "2511500057";
-            $Nama_Lengkap   = "Steven Marcelino";
-            $Tempat_Lahir   = "Pangkalpinang";
-            $Tanggal_Lahir  = "29 Maret 2007";
-            $Pekerjaan      = "Mahasiswa";
-            $Pasangan       = "Michelle";
-            $Nama_Ayah      = "Niko Febrianto";
-            $Nama_Ibu       = "Ervina";
-            $Nama_Kakak     = "Shintya Desilia";
-            $Nama_Adik      = "Akila Widya Lestari";
-
-            echo "<p><strong>NIM:</strong> $NIM</p>";
-            echo "<p><strong>Nama Lengkap:</strong> $Nama_Lengkap &#128512;</p>";
-            echo "<p><strong>Tempat Lahir:</strong> $Tempat_Lahir</p>";
-            echo "<p><strong>Tanggal Lahir:</strong> $Tanggal_Lahir</p>";
-            echo "<p><strong>Pekerjaan:</strong> $Pekerjaan</p>";
-            echo "<p><strong>Pasangan:</strong> $Pasangan &hearts;</p>";
-            echo "<p><strong>Nama Ayah:</strong> $Nama_Ayah</p>";
-            echo "<p><strong>Nama Ibu:</strong> $Nama_Ibu</p>";
-            echo "<p><strong>Nama Kakak:</strong> $Nama_Kakak</p>";
-            echo "<p><strong>Nama Adik:</strong> $Nama_Adik</p>";
-            ?>
-    </section>
+    <section id="ENTRY DATA MAHASISWA"></section>
     <section id="about">
       <?php
       $nim = 2511500010;
