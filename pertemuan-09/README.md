@@ -21,5 +21,7 @@ belajar:<br>
   <li>mengubah baris 23-32 di proses.php</li>
   <li>Hapus baris kode 19-67 di index.php dan menambahkan section biodata baru sebelum section about</li>
   <li>Tambahkan baris kode baru setelah baris <h2>Tentang Saya</h2> untuk menampilkan array menggunakan looping
-foreach</li>
+      foreach</li>
+  <li>Hapus baris 130-140, karena sudah diakomodir menggunakan perulangan foreach untuk menampilkan isi array
+      associative $fieldConfig</li>
 </ol>
