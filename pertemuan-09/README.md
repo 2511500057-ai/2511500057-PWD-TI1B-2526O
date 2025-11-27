@@ -25,4 +25,5 @@ belajar:<br>
   <li>Hapus baris 130-140, karena sudah diakomodir menggunakan perulangan foreach untuk menampilkan isi array
       associative fieldConfig</li>
   <li>menambahkan file baru bernama fungsi.php</li>
+  <li>menambahkan function formatTanggal pada fungsi.php</li>
 </ol>
