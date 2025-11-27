@@ -27,4 +27,5 @@ belajar:<br>
   <li>menambahkan file baru bernama fungsi.php</li>
   <li>menambahkan function formatTanggal pada fungsi.php</li>
   <li>menambahkan lagi kode pada fungsi.php untuk merender hasil atau output biodata</li>
+  <li>Hapus baris 123-129 dan menggantikan dengan kode baru</li>
 </ol>
