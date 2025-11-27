@@ -16,5 +16,6 @@ belajar:<br>
   <li>tangkap session dari file proses selesai</li>
   <li>echo session ke nilai label section contact</li>
   <li>echo session ke nilai label section contact selesai</li>
+  <li>copy seluruh file dari elearning (punya dosen) untuk latihan pertemuan-09</li>
   <li>mengubah data pos.php ke array associative</li>
 </ol>
