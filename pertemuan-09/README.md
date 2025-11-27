@@ -1,6 +1,6 @@
 # pertemuan-09
 
-hari ini, kamis 6 November 2025,
+hari ini, kamis 27 November 2025,
 Nama: Steven Marcelino<br>
 NIM: 2511500057<br>
 <br>
