@@ -26,4 +26,5 @@ belajar:<br>
       associative fieldConfig</li>
   <li>menambahkan file baru bernama fungsi.php</li>
   <li>menambahkan function formatTanggal pada fungsi.php</li>
+  <li>menambahkan lagi kode pada fungsi.php untuk merender hasil atau output biodata</li>
 </ol>
