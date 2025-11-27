@@ -19,5 +19,7 @@ belajar:<br>
   <li>copy seluruh file dari elearning (punya dosen) untuk latihan pertemuan-09</li>
   <li>mengubah data pos.php ke array associative</li>
   <li>mengubah baris 23-32 di proses.php</li>
-  <li>Hapus baris kode 19-67 di index.php</li>
+  <li>Hapus baris kode 19-67 di index.php dan menambahkan section biodata baru sebelum section about</li>
+  <li>Tambahkan baris kode baru setelah baris <h2>Tentang Saya</h2> untuk menampilkan array menggunakan looping
+foreach</li>
 </ol>
