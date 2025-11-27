@@ -18,5 +18,5 @@ belajar:<br>
   <li>echo session ke nilai label section contact selesai</li>
   <li>copy seluruh file dari elearning (punya dosen) untuk latihan pertemuan-09</li>
   <li>mengubah data pos.php ke array associative</li>
-  xxx
+  <li>mengubah baris 23-32 di proses.php</li>
 </ol>
