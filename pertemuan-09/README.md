@@ -19,4 +19,5 @@ belajar:<br>
   <li>copy seluruh file dari elearning (punya dosen) untuk latihan pertemuan-09</li>
   <li>mengubah data pos.php ke array associative</li>
   <li>mengubah baris 23-32 di proses.php</li>
+  <li>Hapus baris kode 19-67 di index.php</li>
 </ol>
