@@ -23,5 +23,6 @@ belajar:<br>
   <li>Tambahkan baris kode baru setelah baris <h2>Tentang Saya</h2> untuk menampilkan array menggunakan looping
       foreach</li>
   <li>Hapus baris 130-140, karena sudah diakomodir menggunakan perulangan foreach untuk menampilkan isi array
-      associative $fieldConfig</li>
+      associative fieldConfig</li>
+  <li>menambahkan file baru bernama fungsi.php</li>
 </ol>
