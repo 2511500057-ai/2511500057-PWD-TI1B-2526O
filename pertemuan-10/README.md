@@ -11,4 +11,5 @@ belajar:<br>
 <li>mengextrack bahan myadmin ke file lareagon dan membuat database di php myadmin</li>
 <li>menambakan kode MySQL di phpMyAdmin</li>
 <li>menambakan file baru bernama read php</li>
+<li>menambahkan insert untuk tbl_tamu</li>
 </ol>
