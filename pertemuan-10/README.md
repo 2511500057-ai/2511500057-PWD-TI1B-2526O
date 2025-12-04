@@ -10,4 +10,5 @@ belajar:<br>
 <li>menambakan file baru bernama koneksi php</li>
 <li>mengextrack bahan myadmin ke file lareagon dan membuat database di php myadmin</li>
 <li>menambakan kode MySQL di phpMyAdmin</li>
+<li>menambakan file baru bernama read php</li>
 </ol>
