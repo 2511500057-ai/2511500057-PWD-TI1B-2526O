@@ -12,4 +12,5 @@ belajar:<br>
 <li>menambakan kode MySQL di phpMyAdmin</li>
 <li>menambakan file baru bernama read php</li>
 <li>menambahkan insert untuk tbl_tamu</li>
+<li>mengcopy file read.php dan ubah menjadi read_inc.php dan menghubah kode read.php</li>
 </ol>
