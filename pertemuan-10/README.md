@@ -14,4 +14,5 @@ belajar:<br>
 <li>menambahkan insert untuk tbl_tamu</li>
 <li>mengcopy file read.php dan ubah menjadi read_inc.php dan menghubah kode read.php</li>
 <li>menghapus kode barisan 146 pada index.php</li>
+<li>menghapus barisan 133-141 di index.php</li>
 </ol>
