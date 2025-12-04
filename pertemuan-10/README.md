@@ -15,4 +15,5 @@ belajar:<br>
 <li>mengcopy file read.php dan ubah menjadi read_inc.php dan menghubah kode read.php</li>
 <li>menghapus kode barisan 146 pada index.php</li>
 <li>menghapus barisan 133-141 di index.php</li>
+<li>mengexport database dari php MyAdmin ke pertemuan 10</li>
 </ol>
