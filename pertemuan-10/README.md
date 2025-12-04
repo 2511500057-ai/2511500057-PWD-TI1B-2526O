@@ -7,4 +7,5 @@ NIM: 2511500057<br>
 belajar:<br>
 <ol>
 <li>copy seluruh file dari elearning (punya dosen) untuk latihan pertemuan-10</li>
+<li>menambakan file baru bernama koneksi php</li>
 </ol>
