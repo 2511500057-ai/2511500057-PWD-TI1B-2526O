@@ -8,4 +8,4 @@ belajar:<br>
 <ol>
 <li>mengcopy file dari pertemuan-10 ke pertemuan-11</li>
 <li>latihan inti sudah selesai</li>
-<li>Tambah validasi panjang minimal untuk nama minimal 3 karakter dan pesan minimal 10 karakter 1</li>
+<li>Tambah validasi panjang minimal untuk nama minimal 3 karakter dan pesan minimal 10 karakter</li>
