@@ -10,4 +10,7 @@ belajar:<br>
 <li>latihan inti sudah selesai</li>
 <li>Tambahkan kolom nomor urut (bukan ID) pada read.php di kolom pertama</li>
 <li>Tambah validasi panjang minimal untuk nama minimal 3 karakter dan pesan minimal 10 karakter</li>
+<li>Tambah input captcha sederhana (pertanyaan 2+3=?) untuk logika dasar</li>
+<li>Tambah field baru di tabel tbl_tamu</li>
+<li>Tambahkan kolom Created At setelah kolom Pesan untuk menampilkan tanggal dan waktu pesan dikirim.</li>
 </ol>

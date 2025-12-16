@@ -24,7 +24,7 @@ $no = 1;
       <td><?= htmlspecialchars($row['cemail']); ?></td>
       <td><?= nl2br(htmlspecialchars($row['cpesan'])); ?></td>
       <td>
-        <?= date("d M Y H:i:s", strtotime($row['created_at'])); ?>
+        <?= date("d M Y H:i:s", strtotime($row['dcreated_at'])); ?>
       </td>
     </tr>
   <?php endwhile; ?>
