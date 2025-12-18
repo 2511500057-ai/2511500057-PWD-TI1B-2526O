@@ -8,4 +8,5 @@ belajar:<br>
 <ol>
 <li>mengcopy file dari pertemuan-11 ke pertemuan-12</li>
 <li>menambahkan kolom Aksi setelah kolom No dan Buat link edit yang aman</li>
+<li>menambahkan penampil flash sukses maupun flash error menggunakan session pada read.php</li>
 </ol>
