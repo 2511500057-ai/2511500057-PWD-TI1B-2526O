@@ -9,6 +9,6 @@ belajar:<br>
 <li>mengcopy file dari pertemuan-11 ke pertemuan-12</li>
 <li>menambahkan kolom Aksi setelah kolom No dan Buat link edit yang aman</li>
 <li>menambahkan penampil flash sukses maupun flash error menggunakan session pada read.php</li>
-<li>menambahkan file baru dengan nama edit.php dan menampilkan form dengan data lama yang
-dibaca berdasarkan cid (prefill form)</li>
+<li>menambahkan file baru dengan nama edit.php dan menampilkan form dengan data lama yang dibaca berdasarkan cid (prefill form)</li>
+<li>membuat file baru dengan nama proses_update.php dan menyimpan perubahan menggunakan query UPDATE dan prepared statement</li>
 </ol>
