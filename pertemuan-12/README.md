@@ -7,4 +7,5 @@ NIM: 2511500057<br>
 belajar:<br>
 <ol>
 <li>mengcopy file dari pertemuan-11 ke pertemuan-12</li>
+<li>menambahkan kolom Aksi setelah kolom No dan Buat link edit yang aman</li>
 </ol>
