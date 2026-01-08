@@ -7,4 +7,6 @@ NIM: 2511500057<br>
 belajar:<br>
 <ol>
 <li>mengcopy semua file pertemuan 13 dari elearning</li>
+<li>import file sql pertemuan 13 ke phpmyadmin</li>
+<li>menambah link delete di file read.php untuk ke file proses_delete.php</li>
 </ol>
