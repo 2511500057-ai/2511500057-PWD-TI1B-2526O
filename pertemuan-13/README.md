@@ -9,4 +9,5 @@ belajar:<br>
 <li>mengcopy semua file pertemuan 13 dari elearning</li>
 <li>import file sql pertemuan 13 ke phpmyadmin</li>
 <li>menambah link delete di file read.php untuk ke file proses_delete.php</li>
+<li>salin semua code proses_update.php ke proses_delete.php</li>
 </ol>
