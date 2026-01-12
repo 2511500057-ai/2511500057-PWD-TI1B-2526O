@@ -20,4 +20,5 @@ TRY OUT:<br>
 <li>menambahkan file read_keren.php</li>
 <li>menambahkan file edit_keren.php</li>
 <li>menambahkan file keren_update.php</li>
+<li>menambahkan file keren_delete.php</li>
 </ol>
