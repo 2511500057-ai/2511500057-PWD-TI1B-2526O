@@ -16,4 +16,5 @@ TRY OUT:<br>
 <li>menambahkan validasi di proses.php</li>
 <li>menambahkan sanitasi di keren_update.php</li> 
 <li>menambahkan sanitasi di proses_update.php</li>
+<li>menambahkann konsep PRG di proses_update.php</li>
 </ol>
