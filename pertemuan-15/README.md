@@ -1,1 +1,11 @@
 # pertemuan-15
+
+hari ini, seni 12 JANUARI 2026,
+Nama: Steven Marcelino<br>
+NIM: 2511500057<br>
+<br>
+TRY OUT:<br>
+<ol>
+<li>mencopy bahan try out dari elearning</li>
+<li>membuat tabel baru di phpmyadmin</li>
+</ol>
