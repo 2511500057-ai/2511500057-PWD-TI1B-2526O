@@ -10,5 +10,6 @@ TRY OUT:<br>
 <li>membuat tabel baru di phpmyadmin</li>
 <li>menambahkan method post di keren_update.php</li>
 <li>menambahkan method post di proses.php</li>
-<li>menambahkan validasi di biodata_update.php</li>
+<li>menambahkan validasi di keren_update.php</li>
+<li>menambahkan validasi di keren_delete.php</li>
 </ol>
