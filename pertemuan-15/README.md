@@ -13,4 +13,5 @@ TRY OUT:<br>
 <li>menambahkan validasi di keren_update.php</li>
 <li>menambahkan validasi di keren_delete.php</li>
 <li>menambahkan validasi di proses_update.php</li>
+<li>menambahkan validasi di proses.php</li>
 </ol>
