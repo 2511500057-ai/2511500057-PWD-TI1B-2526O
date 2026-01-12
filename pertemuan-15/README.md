@@ -8,4 +8,5 @@ TRY OUT:<br>
 <ol>
 <li>mencopy bahan try out dari elearning</li>
 <li>membuat tabel baru di phpmyadmin</li>
+<li>menambahkan method post di keren_update.php</li>
 </ol>
