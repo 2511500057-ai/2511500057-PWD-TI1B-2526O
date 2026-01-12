@@ -18,4 +18,6 @@ TRY OUT:<br>
 <li>menambahkan sanitasi di proses_update.php</li>
 <li>menambahkann konsep PRG di proses_update.php</li>
 <li>menambahkan file read_keren.php</li>
+<li>menambahkan file edit_keren.php</li>
+<li>menambahkan file keren_update.php</li>
 </ol>
