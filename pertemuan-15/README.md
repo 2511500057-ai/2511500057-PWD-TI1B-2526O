@@ -12,4 +12,5 @@ TRY OUT:<br>
 <li>menambahkan method post di proses.php</li>
 <li>menambahkan validasi di keren_update.php</li>
 <li>menambahkan validasi di keren_delete.php</li>
+<li>menambahkan validasi di proses_update.php</li>
 </ol>
