@@ -15,4 +15,5 @@ UAS:<br>
 <li>menambahkann konsep PRG di proses_hebat.php</li>
 <li>membuat file read_hebat.php beserta link edit dan link hapus</li>
 <li>membuat file hebat_update.php</li>
+<li>menambahkan method post di hebat_update.php</li>
 </ol>
