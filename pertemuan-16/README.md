@@ -12,4 +12,5 @@ UAS:<br>
 <li>menambahkan method post di proses_hebat.php</li>
 <li>menambahkan validasi di proses_hebat.php</li>
 <li>menambahkan sanitasi di proses_hebat.php</li>
+<li>menambahkann konsep PRG di proses_hebat.php</li>
 </ol>
