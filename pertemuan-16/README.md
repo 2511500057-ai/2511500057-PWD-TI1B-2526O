@@ -7,4 +7,5 @@ NIM: 2511500057<br>
 UAS:<br>
 <ol>
 <li>mencopy bahan uas dari elearning</li>
+<li>membuat table baru di phpMyAdmin bernama table orang_hebat</li>
 </ol>
