@@ -16,4 +16,5 @@ UAS:<br>
 <li>membuat file read_hebat.php beserta link edit dan link hapus</li>
 <li>membuat file hebat_update.php</li>
 <li>menambahkan method post di hebat_update.php</li>
+<li>menambahkan validasi di hebat_update.php</li>
 </ol>
