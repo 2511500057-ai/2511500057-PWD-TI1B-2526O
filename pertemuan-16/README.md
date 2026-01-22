@@ -10,5 +10,6 @@ UAS:<br>
 <li>membuat table baru di phpMyAdmin bernama table orang_hebat</li>
 <li>membuat file proses_hebat.php</li>
 <li>menambahkan method post di proses_hebat.php</li>
-<li>menambahkan validasi di proses_update.php</li>
+<li>menambahkan validasi di proses_hebat.php</li>
+<li>menambahkan sanitasi di proses_hebat.php</li>
 </ol>
