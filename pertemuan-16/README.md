@@ -1,1 +1,10 @@
-# pertemuan-16
+# pertemuan-16
+
+hari ini, kamis 22 JANUARI 2026,
+Nama: Steven Marcelino<br>
+NIM: 2511500057<br>
+<br>
+UAS:<br>
+<ol>
+<li>mencopy bahan uas dari elearning</li>
+</ol>
