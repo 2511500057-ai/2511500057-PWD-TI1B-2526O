@@ -17,4 +17,5 @@ UAS:<br>
 <li>membuat file hebat_update.php</li>
 <li>menambahkan method post di hebat_update.php</li>
 <li>menambahkan validasi di hebat_update.php</li>
+<li>menambahkan sanitasi di hebat_update.php</li>
 </ol>
